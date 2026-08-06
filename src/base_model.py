@@ -9,7 +9,7 @@ from config import TICKERS, BASE_DIR
 PREDICTIONS_DIR = os.path.join(BASE_DIR, "..", "data", "predictions")
 os.makedirs(PREDICTIONS_DIR, exist_ok=True)
 
-# --- Walk-forward config (defaults — tune later with your supervisor) ---
+
 INITIAL_TRAIN_DAYS = 252 * 5   # ~5 years of trading days
 TEST_CHUNK_DAYS = 126          # ~6 months per fold
 FEATURE_COLS = ['Log_Return', 'return_lag1', 'return_lag5', 'return_lag10',
