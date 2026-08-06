@@ -40,7 +40,7 @@ def compute_features(data, vix):
 
         df['volume_ratio'] = df['Volume'] / df['Volume'].rolling(window=20).mean()
 
-        # Join VIX onto this ticker's dataframe by date
+    
         df = df.join(vix, how='left')
 
         feature_cols = ['Log_Return', 'return_lag1', 'return_lag5', 'return_lag10',
