@@ -34,5 +34,4 @@ def get_all_data():
 if __name__ == "__main__":
     all_data = get_all_data()
     print(f"Fetched {len(all_data)} / {len(TICKERS)} tickers successfully")
-    print(all_data)
 
