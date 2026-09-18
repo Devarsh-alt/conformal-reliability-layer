@@ -1,0 +1,2 @@
+n,actual_miscov,mean_novelty_pct,roc_auc,spearman_novelty_miscov,spearman_miscov_pvalue,spearman_novelty_abs_error,spearman_error_pvalue
+14952,0.10767790262172285,0.500260834670947,0.5849299042578845,0.09120883096396071,5.39084400882372e-29,0.0662328785698292,5.185334068877874e-16
