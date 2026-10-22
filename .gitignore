@@ -6,3 +6,20 @@ data/raw/
 data/processed/
 data/predictions/
 .vscode/
+# Local archives
+*.zip
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated research data and intermediate outputs
+data/monitoring/
+data/results/
+data/var/
+
+# Large processed datasets
+data/processed/
+data/raw/
